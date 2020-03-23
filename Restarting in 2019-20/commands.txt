@@ -1,0 +1,34 @@
+cd
+dir
+dir *.pdf
+mkdir
+rmdir
+rmdir /s
+tree
+
+echo some-text  > filename.txt - napravi file, overite ako vec postoji
+echo moretext >> filename.txt - doda tekst u file
+echo filename.txt - ispise stosi napiso
+dir > filename.txt - ispise sadrzaj cmda u file (bilokoja komanda, ne samo dir)
+dir .. >> filename.txt - nadoda sadrzaj direktorija iznad
+
+type [filename] - ispise sadrzaj datoteke
+del [FILE]
+del [folder_name] - deletes files but not the folder itself
+
+copy [file] [destination] - kopira filese
+xcopy [file] [destination] /s - kopira i filese i neprazne podmape
+move [file] [destination] - moves the files / entire folder itself
+rename [old] [new] - renames
+
+
+
+color /?
+attrib /?
+attrib +h [file] - to hide
+attrib -h - unhide
+attrib +r - read only itd...
+
+
+ipconfig /?
+wmic logicaldisk get name - available diskovi

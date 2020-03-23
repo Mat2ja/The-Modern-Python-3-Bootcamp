@@ -1,0 +1,12 @@
+creates a new list
+
+[ ___ for ___ in ___ ]
+
+[ ___ for ___ in ___  if ___ ]
+
+[ ___ if ___ else ___ for ___ in ___ ]
+
+
+nested liss
+[[i for i in range(3)] for num in range(3)]             # [[0,1,2],[0,1,2],[0,1,2]]
+
